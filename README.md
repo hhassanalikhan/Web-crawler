@@ -1,1 +1,4 @@
 # Web-Crawler
+Tools/Technologies: C#, Windows Form Application, VS2012
+
+In this project I wrote the crawler for the website http://lums.edu.pk/. I developed the assignments in multiple parts, First one was URLsFetcher which fetched all the urls and their html content and saved data in 2 separate files, keeping the common index for URL and its content in corresponding file (I have used this technique to make the search faster using basic form of indexing). Next part was the application interface in which user can enter query to be searched and it parses the content txt files to get the results and it saves the searched queries persistently (you can re open the application and all the previously searched term would be in suggestive drop down using auto-complete). User can update the txt files by running the URLsFetcher again and web crawler part will work on it as well. I have used multi-threading for searching and content writing.
